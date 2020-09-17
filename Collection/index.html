@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+        
+        div {
+  background-image: url('grass.png');
+}
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -49,7 +53,7 @@
         //the function in .forEach takes two values, the first is the item,
         //the second is which item in the array it is, ie the index.
         imgPaths.forEach((e,i) => {
-            imgPaths[i]=`img/${i}.jpeg`;
+            imgPaths[i]=`img${i}.jpg`;
             });
             //let's log this out so we can be sure it's working.
         console.log(imgPaths);
